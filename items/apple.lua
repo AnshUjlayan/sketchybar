@@ -3,7 +3,7 @@ local icons = require("icons")
 local settings = require("settings")
 
 -- Padding item required because of bracket
-sbar.add("item", { width = 0 })
+sbar.add("item", { width = 5 })
 
 local apple = sbar.add("item", {
 	icon = {
@@ -14,8 +14,8 @@ local apple = sbar.add("item", {
 	},
 	label = { drawing = false },
 	background = {
-		color = colors.bg2,
-		border_color = colors.transparent,
+		color = colors.accent,
+		border_color = colors.black,
 		border_width = 1,
 	},
 	padding_left = 1,
@@ -28,7 +28,7 @@ sbar.add("bracket", { apple.name }, {
 	background = {
 		color = colors.transparent,
 		height = 30,
-		border_color = colors.transparent,
+		border_color = colors.overlay0,
 	},
 })
 
