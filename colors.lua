@@ -48,7 +48,7 @@ colors.bar.border = 0x00000000
 
 colors.main = colors.rosewater
 colors.selected = colors.red
-colors.primary = colors.mauve
+colors.primary = colors.sapphire
 colors.secondary = colors.blue
 colors.offset = colors.yellow
 colors.theme = colors.with_alpha(colors.surface0, 0.8)
